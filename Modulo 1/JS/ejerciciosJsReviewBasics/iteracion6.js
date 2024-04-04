@@ -11,6 +11,4 @@ const pruebaArray = [
   "Ronalguiño",
 ];
 
-const swap = (indice1, indice2) => {
-    for()
-};
+const swap = (indice1, indice2) => {};
