@@ -1,6 +1,11 @@
 // route.js ---> utils/route.js
 import { getUser } from "../global/state/globalstate";
-import { Login, PrintPokemonPage, printTemplateDashboard } from "../pages";
+import {
+  Login,
+  PrintPokemonPage,
+  printPageTresEnRaya,
+  printTemplateDashboard,
+} from "../pages";
 
 export const initControler = (pagesRender) => {
   switch (pagesRender) {
@@ -24,6 +29,9 @@ export const initControler = (pagesRender) => {
       break;
     case "Memory":
       "Memory()";
+      break;
+    case "TresEnRaya":
+      printPageTresEnRaya();
       break;
   }
 };

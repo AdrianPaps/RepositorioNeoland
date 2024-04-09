@@ -1,4 +1,10 @@
 /*Pokemon.css -----> src/pages/Pokemon/Pokemon.css*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 #galleryPokemon {
   display: flex;
   justify-content: center;

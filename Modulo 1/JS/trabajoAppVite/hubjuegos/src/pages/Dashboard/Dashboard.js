@@ -1,5 +1,5 @@
 //Dashboard.js ------> src/pages/Dashboard/Dashboard.js
-import { initControler } from "../../utils";
+import { getInfo, initControler } from "../../utils";
 import "./Dashboard.css";
 
 const template = () => `
@@ -15,18 +15,18 @@ const template = () => `
         </figure>
       </li>
       <li>
-        <figure>
+        <figure id="navigateTresEnRaya">
           <img
-            src="https://res.cloudinary.com/dq186ej4c/image/upload/v1689761641/pngwing.com_1_iq8zfk.png"
+            src="https://res.cloudinary.com/dq186ej4c/image/upload/v1689761641/pngwing.com_1_iq8zfk.png" //cambiar imagen
             alt=" go to wacka topo game"
           />
-          <h2>WACKA TOPO</h2>
+          <h2>Tres En Raya</h2>
         </figure>
       </li>
       <li>
         <figure>
           <img
-            src="https://res.cloudinary.com/dq186ej4c/image/upload/v1689761735/6168776_kfna36.png"
+            src="https://res.cloudinary.com/dq186ej4c/image/upload/v1689761735/6168776_kfna36.png" 
             alt="go to memory game"
           />
           <h2>MEMORY GAME</h2>
@@ -43,6 +43,11 @@ const addEventListeners = () => {
   const navigatePokemon = document.getElementById("navigatePokemon");
   navigatePokemon.addEventListener("click", () => {
     initControler("Pokemon");
+  });
+
+  const navigatetoTresEnRaya = document.getElementById("navigateTresEnRaya");
+  navigatetoTresEnRaya.addEventListener("click", () => {
+    initControler("TresEnRaya");
   });
 };
 
