@@ -17,7 +17,7 @@ const template = () => `
       <li>
         <figure id="navigateTresEnRaya">
           <img
-            src="https://res.cloudinary.com/dq186ej4c/image/upload/v1689761641/pngwing.com_1_iq8zfk.png" //cambiar imagen
+            src="https://www.redpiso.es/news/wp-content/uploads/2023/08/3raya.png" //cambiar imagen
             alt=" go to wacka topo game"
           />
           <h2>Tres En Raya</h2>
