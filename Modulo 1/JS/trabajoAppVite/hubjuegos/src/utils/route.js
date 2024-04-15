@@ -5,6 +5,7 @@ import {
   PrintPokemonPage,
   printPageTresEnRaya,
   printTemplateDashboard,
+  printWhack,
 } from "../pages";
 
 export const initControler = (pagesRender) => {
@@ -32,6 +33,9 @@ export const initControler = (pagesRender) => {
       break;
     case "TresEnRaya":
       printPageTresEnRaya();
+      break;
+    case "WhackAMole":
+      printWhack();
       break;
   }
 };

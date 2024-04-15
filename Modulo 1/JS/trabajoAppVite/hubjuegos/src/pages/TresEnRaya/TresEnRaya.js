@@ -103,3 +103,7 @@ export const printPageTresEnRaya = () => {
 //importar el css en el archivo js de el juego
 //meter la logica del codigo en una funcion para que inicie
 //incluir en el barril index.js
+
+//en el dashboard se coloca el tema,
+
+//en components en el header donde estan los iconos e imagen, poner el icono aca.

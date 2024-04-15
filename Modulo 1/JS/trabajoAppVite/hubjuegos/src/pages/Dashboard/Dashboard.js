@@ -17,19 +17,19 @@ const template = () => `
       <li>
         <figure id="navigateTresEnRaya">
           <img
-            src="https://www.redpiso.es/news/wp-content/uploads/2023/08/3raya.png" //cambiar imagen
-            alt=" go to wacka topo game"
+            src="https://tictactoefree.com/img/classic_tictactoe.png" //cambiar imagen
+            alt=" go to tres en raya"
           />
           <h2>Tres En Raya</h2>
         </figure>
       </li>
       <li>
-        <figure>
+        <figure id="navigateWhack">
           <img
             src="https://res.cloudinary.com/dq186ej4c/image/upload/v1689761735/6168776_kfna36.png" 
-            alt="go to memory game"
+            alt="go to wacka topo game"
           />
-          <h2>MEMORY GAME</h2>
+          <h2>Whack a Mole</h2>
         </figure>
       </li>
     </ul>
@@ -48,6 +48,11 @@ const addEventListeners = () => {
   const navigatetoTresEnRaya = document.getElementById("navigateTresEnRaya");
   navigatetoTresEnRaya.addEventListener("click", () => {
     initControler("TresEnRaya");
+  });
+
+  const navigatetoWhack = document.getElementById("navigateWhack");
+  navigatetoWhack.addEventListener("click", () => {
+    initControler("WhackAMole");
   });
 };
 
